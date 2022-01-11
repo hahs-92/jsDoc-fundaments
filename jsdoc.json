@@ -1,5 +1,4 @@
 {
-    "plugins": [],
     "source": {
         "include": ["src"],
         "includePattern": ".js$",
@@ -15,5 +14,6 @@
         "template": "node_modules/docdash",
         "tutorials": "./tutorials",
         "readme": "./README.md"
-    }
+    },
+    "plugins": ["jsdoc-http-plugin"]
 }
