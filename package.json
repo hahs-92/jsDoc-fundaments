@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "docs": "jsdoc -c jsdoc.json",
+    "clean": "rimraf docs",
+    "docs:deploy": "npm run clean && npm run docs && gh-pages -d docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
