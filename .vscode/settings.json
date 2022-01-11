@@ -1,0 +1,5 @@
+//workspace seettings.json crea este archivo
+
+{
+    "js/ts.implicitProjectConfig.checkJs": true
+}
